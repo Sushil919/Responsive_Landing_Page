@@ -13,6 +13,7 @@ html,body{
     height: 100%;
 }
 #top{
+    
     width: 100%;
     height: 60%;
     /* background-image: url(https://images.unsplash.com/photo-1506259091721-347e791bab0f?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2070); */
@@ -27,12 +28,23 @@ html,body{
     height: 100%;
 }
 #text{
+    display: flex;
+    justify-content: space-between;
     position: absolute;
     width: 100%;
     bottom: 20%;
     padding: 0 10vw;
      /* height: 120px;     height hat jayegi to element me utna space hoga jitna uska content hai */
      /* background-color: red;  */
+}
+#text-right{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+#text-right p{
+    font-size: 12px;
+    width: 40%;
 }
 #text h1{
     font-size: 6vw;
